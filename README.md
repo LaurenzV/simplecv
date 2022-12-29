@@ -6,8 +6,8 @@ inspired by two Latex CV templates([[1]](https://www.overleaf.com/latex/template
 Feel free to create open an issue if you have any questions or notice some error.
 
 # Usage
-Create a new Typst project and copy the whole content of the `source` directory
-into the project. Change the contents of the `source/main.typ` file according to your own needs. This should be it. 
+Create a new Typst project and copy the whole content of the `src` directory
+into the project. Change the contents of the `src/main.typ` file according to your own needs. This should be it. 
 You can find an example of what the CV looks like in `example.pdf`. 
 
 # License
