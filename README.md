@@ -7,9 +7,9 @@ Feel free to create open an issue if you have any questions or notice some error
 
 # Usage
 Create a new Typst project and copy the whole content of the `source` directory
-into the project. Change the contents of the `main.typ` file according to your own needs. This should be it. 
+into the project. Change the contents of the `source/main.typ` file according to your own needs. This should be it. 
 You can find an example of what the CV looks like in `example.pdf`. 
 
 # License
 The project itself is available under the MIT license. The icons are 
-from FontAwesome and subject their [their license agreement](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt).
+from FontAwesome and subject to [their license agreement](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt).
