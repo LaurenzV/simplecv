@@ -51,7 +51,7 @@
 = Education
 #education_entry("Computer Science", "ETH Zürich",
 degree_title: "MSc.", start_date: "Sep 2016", end_date: "Jul 2018",
-description: lorem(9), location: "Munich, Germany")
+description: lorem(9), location: "Zurich, Switzerland")
 
 #education_entry("Computer Science", "Stanford University",
 degree_title: "BSc.", start_date: "Sep 2012", end_date: "Jul 2016",

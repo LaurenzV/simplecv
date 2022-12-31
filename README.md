@@ -11,5 +11,5 @@ into the project. Change the contents of the `src/main.typ` file according to yo
 You can find an example of what the CV looks like in `example.pdf`. 
 
 # License
-The project itself is available under the MIT license. The icons are 
+The template itself is available under the MIT license. The icons are 
 from FontAwesome and subject to [their license agreement](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt).
