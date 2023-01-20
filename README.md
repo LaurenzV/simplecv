@@ -1,5 +1,5 @@
 # SimpleCV
-SimpleCV is simple and elegant CV template written in [Typst](https://typst.app/) 
+SimpleCV is a simple and elegant CV template written in [Typst](https://typst.app/) 
 aimed at (but not limited to!) people with an engineering background. The template was
 inspired by two Latex CV templates ([[1]](https://www.overleaf.com/latex/templates/autocv/scfvqfpxncwb),
 [[2]](https://www.overleaf.com/latex/templates/faangpath-simple-template/npsfpdqnxmbc)).
