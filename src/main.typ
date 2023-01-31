@@ -1,4 +1,4 @@
-#import template, education_entry, work_entry, skill_entry from "simplecv.typ"
+#import "simplecv.typ": template, education_entry, work_entry, skill_entry
 
 // Change the margins of the cv.
 #set page(margin: (x: 1.5cm, y: 0.5cm))
@@ -90,20 +90,20 @@ location: "Zurich, Switzerland")
 // Ratings won't be displayed in this template.
 #skill_entry("Technologies",
   (
-    ("name": "Git", "rating": 3),
-    ("name": "C++", "rating": 2),
-    ("name": "Python", "rating": 5),
-    ("name": "Typst", "rating": 3),
-    ("name": "JavaScript", "rating": 4),
-    ("name": "Vue.js", "rating": 4),
+    "Git",
+    "C++",
+     "Python",
+    "Typst",
+    "JavaScript",
+    "Vue.js",
   )
 )
 
 #skill_entry("Languages",
   (
-    ("name": "English", "rating": 5),
-    ("name": "German", "rating": 5),
-    ("name": "Spanish", "rating": 3),
-    ("name": "Japanese", "rating": 2),
+    "English",
+    "German",
+    "Spanish",
+    "Japanese",
   )
 )

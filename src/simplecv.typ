@@ -91,7 +91,7 @@
   [== #category]
 
   let cell = rect.with(radius: 5pt, inset: 4pt)
-  let boxes = for skill in skills {(cell(skill.name),)}
+  let boxes = for skill in skills {(cell(skill),)}
 
   {boxes.join("  ")}
 }
@@ -102,10 +102,10 @@
   align(center)[
     #smallcaps(text(size: 2.5em, fill: color)[#name]) \
 
-    {
+    #{
       if contact_data != none and contact_data.len() > 0 {
         let elements = for el in contact_data {
-          (link(el.link)[{box(image(height: 0.7em, el.service + ".svg")) + " " + el.display}],)
+          (link(el.link)[#{box(image(height: 0.7em, el.service + ".svg")) + " " + el.display}],)
         }
         elements.join(" | ")
       }
@@ -121,7 +121,7 @@
       stack(
         dir: ttb,
         spacing: 2mm,
-        [{title}],
+        title,
         line(length: 100%, stroke: color)
     )
   }
@@ -131,7 +131,7 @@
     let title = smallcaps(i.title)
     set block(above: 0.8em)
     set text(weight: "light", size: 1.1em, fill: color)
-    [{i.title}]
+    title
   }
 
   doc
