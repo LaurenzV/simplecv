@@ -91,7 +91,7 @@
   [== #category]
 
   let cell = rect.with(radius: 5pt, inset: 4pt)
-  let boxes = for skill in skills {(cell(skill),)}
+  let boxes = for skill in skills {(box(cell(skill)),)}
 
   {boxes.join("  ")}
 }

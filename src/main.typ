@@ -45,7 +45,7 @@
 )
 
 // Leave this unchanged. This puts the name and contact data in the right spot.
-#show doc => template(name, contact_data, color, doc)
+#show: doc => template(name, contact_data, color, doc)
 
 // Starting from here, you can add as much content as you want. This represents the main content of the cv.
 = Education
