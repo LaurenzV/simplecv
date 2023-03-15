@@ -1,10 +1,9 @@
 #import "simplecv.typ": template, education_entry, work_entry, skill_entry 
 
-#set page(margin: (x: 1.5cm, y: 0.5cm))
-#set text(12pt)
+
 
 // Change the theme color of the cv.
-#let color = blue
+#let color = green
 // Change to your name.
 #let name = "John Doe"
 

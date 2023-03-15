@@ -90,7 +90,7 @@
 #let skill_entry(category, skills) = {
   [== #category]
 
-  let cell = rect.with(radius: 5pt, inset: 4pt)
+  let cell = rect.with(radius: 5pt, inset: (top: 4pt, bottom: 4pt, left: 5pt, right: 5pt))
   let boxes = for skill in skills {(box(cell(skill)),)}
 
   {boxes.join("  ")}
@@ -98,6 +98,8 @@
 
 // Set name and contact data and format headings
 #let template(name, contact_data, color, doc) = {
+  set page(margin: (x: 1.5cm, y: 0.5cm))
+  set text(11pt)
   set par(justify: true, leading: par_space)
   align(center)[
     #smallcaps(text(size: 2.5em, fill: color)[#name]) \
@@ -122,7 +124,7 @@
         dir: ttb,
         spacing: 2mm,
         title,
-        line(length: 100%, stroke: color)
+        line(length: 100%, stroke: color + 2pt)
     )
   }
 
