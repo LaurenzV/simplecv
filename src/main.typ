@@ -1,17 +1,10 @@
-#import "simplecv.typ": template, education_entry, work_entry, skill_entry
+#import "simplecv.typ": template, education_entry, work_entry, skill_entry 
 
-// Change the margins of the cv.
 #set page(margin: (x: 1.5cm, y: 0.5cm))
-
-// Change the overall text size of the cv. Might be useful if you want to add/remove content so that everything still stays on one page.
 #set text(12pt)
-
-// Change the font of the cv.
-#set text("Linux Libertine")
 
 // Change the theme color of the cv.
 #let color = blue
-
 // Change to your name.
 #let name = "John Doe"
 
@@ -41,18 +34,13 @@
     "service": "website",
     "display": "mywebsite.com",
     "link": "https://mywebsite.com"
-  )
+  ),
 )
 
-// Leave this unchanged. This puts the name and contact data in the right spot.
 #show: doc => template(name, contact_data, color, doc)
 
 // Starting from here, you can add as much content as you want. This represents the main content of the cv.
 = Education
-#education_entry("Computer Science", "ETH Zürich",
-degree_title: "MSc.", start_date: "Sep 2016", end_date: "Jul 2018",
-description: lorem(9), location: "Zurich, Switzerland")
-
 #education_entry("Computer Science", "Stanford University",
 degree_title: "BSc.", start_date: "Sep 2012", end_date: "Jul 2016",
 description: lorem(12), location: "California, USA")
@@ -72,12 +60,12 @@ location: "Seattle, USA")
   ),
 location: "California, USA")
 
-#work_entry("Junior Software Engineer", "Google", start_date: "Oct 2018", end_date: "Nov 2019", tasks: (
+#work_entry("Junior Software Engineer", "Google", start_date: "Oct 2016", end_date: "Nov 2019", tasks: (
   lorem(8),
   lorem(12),
   lorem(3)
   ),
-location: "Zurich, Switzerland")
+location: "California, USA")
 
 = Projects
 *Project 1*. #lorem(40)
@@ -92,10 +80,11 @@ location: "Zurich, Switzerland")
   (
     "Git",
     "C++",
-     "Python",
-    "Typst",
+    "Python",
     "JavaScript",
     "Vue.js",
+    "Docker",
+    "Kubernetes"
   )
 )
 
