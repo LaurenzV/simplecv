@@ -116,7 +116,7 @@
 
   show heading.where(level: 1): i => {
     set align(left)
-    let title = smallcaps(i.title)
+    let title = smallcaps(i.body)
 
     set block(above: 1em)
       set text(weight: "light", size: 1.2em, fill: color)
@@ -130,7 +130,7 @@
 
   show heading.where(level: 2): i => {
     set align(left)
-    let title = smallcaps(i.title)
+    let title = smallcaps(i.body)
     set block(above: 0.8em)
     set text(weight: "light", size: 1.1em, fill: color)
     title
